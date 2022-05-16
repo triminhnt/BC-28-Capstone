@@ -10,3 +10,24 @@ git remote add origin https://github.com/triminhnt/BC-28-Capstone.git
 git branch -M main
 git push -u origin main
 
+----- Create a branch called dev from Master branch -----
+
+$ git checkout master 
+(change to master branch)
+
+$ git checkout -b dev master 
+(create a branch called dev from master)
+
+$ git checkout dev 
+(switch to dev branch)
+
+$ git checkout -b branch1 dev 
+(create a branch called branch1 from dev branch)
+
+$ git checkout master 
+
+$ git push origin dev 
+(Push dev branch)
+
+$ git push origin branch1 
+(Push branch1 branch)
