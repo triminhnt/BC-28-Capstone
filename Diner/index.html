@@ -20,6 +20,7 @@
   <!--/Template CSS -->
   <link rel="stylesheet" href="./css/nav-overlay.css">
   <link rel="stylesheet" href="./css/style-liberty.css">
+  <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
   <!--//Template CSS -->
 
   <!-- /Font awesome -->
@@ -596,7 +597,7 @@
           <div class="item">
             <div class="testimonial-content">
               <div class="testimonial">
-                <a class="comment-img" href="#url"><img src="assets/images/team1.jpg" class="img-responsive"
+                <a class="comment-img" href="#url"><img src="./images/team1.jpg" class="img-responsive"
                     alt="placeholder image"></a>
                 <blockquote>
                   <q>OMG! I cannot believe. It's Awesome</q>
@@ -616,7 +617,7 @@
           <div class="item">
             <div class="testimonial-content">
               <div class="testimonial">
-                <a class="comment-img" href="#url"><img src="assets/images/team2.jpg" class="img-responsive"
+                <a class="comment-img" href="#url"><img src="./images/team2.jpg" class="img-responsive"
                     alt="placeholder image"></a>
                 <blockquote>
                   <q>Simply the best. Better than all the rest.</q>
@@ -636,7 +637,7 @@
           <div class="item">
             <div class="testimonial-content">
               <div class="testimonial">
-                <a class="comment-img" href="#url"><img src="assets/images/team3.jpg" class="img-responsive"
+                <a class="comment-img" href="#url"><img src="./images/team3.jpg" class="img-responsive"
                     alt="placeholder image"></a>
                 <blockquote>
                   <q>OMG! I cannot believe. It's Awesome</q>
@@ -656,7 +657,7 @@
           <div class="item">
             <div class="testimonial-content">
               <div class="testimonial">
-                <a class="comment-img" href="#url"><img src="assets/images/team4.jpg" class="img-responsive"
+                <a class="comment-img" href="#url"><img src="./images/team2.jpg" class="img-responsive"
                     alt="placeholder image"></a>
                 <blockquote>
                   <q>OMG! I cannot believe. It's Awesome</q>
@@ -748,7 +749,10 @@
 
       </div>
     </div>
-  
+  </section>
+
+  <!-- owl carousel -->
+  <script src="./js/owl.carousel.js"></script>
   <!-- Template JavaScript -->
   <script src="./js/theme-change.js"></script>
   <!-- cdn jquery using with tag stat-->
@@ -764,12 +768,10 @@
   <script src="./js/classie.js"></script>
   <script src="./js/demo1.js"></script>
   <!-- //nav -->
-  <!-- owl carousel -->
-  <script src="./js/owl.carousel.js"></script>
   <!-- script for testimonials carousel slider -->
   <script>
     $(document).ready(function () {
-      $("owl-agency").owlCarousel({
+      $("#owl-agency").owlCarousel({
         loop: true,
         nav: false,
         margin: 50,
@@ -884,7 +886,6 @@
   </style>
   <script id="_vdo_ads_videojs_5654_" src="https://a.vdo.ai/core/assets/vdo.player.js"></script>
   <script id="_vdo_ads_pbjs_5654_" src="https://a.vdo.ai/core/assets/rtb_v4.js"></script>
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
