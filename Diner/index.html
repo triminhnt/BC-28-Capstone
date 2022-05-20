@@ -18,10 +18,13 @@
   <!-- icon bootstrap css -->
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
   <!--/Template CSS -->
+  
   <link rel="stylesheet" href="./css/nav-overlay.css">
   <link rel="stylesheet" href="./css/style-liberty.css">
-  <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+  <!-- Template CSS of popup -->
+  <link rel="stylesheet" href="./Magnific-Popup-master/Magnific-Popup-master/dist/magnific-popup.css">
   <!--//Template CSS -->
+
 
   <!-- /Font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -446,7 +449,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>dialog
   </section>
   <!-- //stats -->
   
@@ -750,9 +753,8 @@
       </div>
     </div>
   </section>
-
+  
   <!-- owl carousel -->
-  <script src="./js/owl.carousel.js"></script>
   <!-- Template JavaScript -->
   <script src="./js/theme-change.js"></script>
   <!-- cdn jquery using with tag stat-->
@@ -761,8 +763,8 @@
   integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
-></script>
-<!-- // cdn jquery using with tag stat -->
+  ></script>
+  <!-- // cdn jquery using with tag stat -->
   <!-- /nav -->
   <script src="./js/modernizr-2.6.2.min.js"></script>
   <script src="./js/classie.js"></script>
@@ -788,10 +790,11 @@
         }
       })
     })
-  </script>
+    </script>
   <!-- //script for testimonials carousel slider -->
   <!-- magnific popup -->
-  <script src="./js/jquery.magnific-popup.min.js"></script>
+  <!-- <script src="./js/jquery.magnific-popup.min.js"></script> -->
+  <script src="./Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
   <script>
     $(document).ready(function () {
       $('.popup-with-zoom-anim').magnificPopup({
@@ -799,12 +802,12 @@
 
         fixedContentPos: false,
         fixedBgPos: true,
-
+        
         overflowY: 'auto',
-
+        
         closeBtnInside: true,
         preloader: false,
-
+        
         midClick: true,
         removalDelay: 300,
         mainClass: 'my-mfp-zoom-in'
@@ -812,39 +815,39 @@
 
       $('.popup-with-move-anim').magnificPopup({
         type: 'inline',
-
+        
         fixedContentPos: false,
         fixedBgPos: true,
-
+        
         overflowY: 'auto',
-
+        
         closeBtnInside: true,
         preloader: false,
-
+        
         midClick: true,
         removalDelay: 300,
         mainClass: 'my-mfp-slide-bottom'
       });
     });
-  </script>
+    </script>
   <!-- //magnific popup -->
 
   <!-- /counter using bootstrap 4 counter -->
   <script src="./js/counter.js"></script>
   <!-- //counter -->
-
+  
   <!-- MENU-JS -->
   <script>
     $(window).on("scroll", function () {
       var scroll = $(window).scrollTop();
-
+      
       if (scroll >= 80) {
         $("#site-header").addClass("nav-fixed");
       } else {
         $("#site-header").removeClass("nav-fixed");
       }
     });
-
+    
     //Main navigation Active Class Add Remove
     $(".navbar-toggler").on("click", function () {
       $("header").toggleClass("active");
@@ -859,44 +862,45 @@
         }
       });
     });
-  </script>
+    </script>
   <!-- //MENU-JS -->
-
+  
   <div id="v-w3layouts-0" style="display: block; width: 100%; margin-left: 0px;"></div>
   <script>
     (function (v, d, o, ai) { ai = d.createElement('script'); ai.defer = true; ai.async = true; ai.src = v.location.protocol + o; d.head.appendChild(ai); })(window, document, '//a.vdo.ai/core/v-w3layouts/vdo.ai.js');
   </script>
 
-  <script id="_vdo_ads_css_5654_" async src="https://a.vdo.ai/core/dependencies_hbv4_latest/vdo.min.js?v=v2.2"></script>
-  <script id="_vdo_ads_sdk_5654_" async src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+<script id="_vdo_ads_css_5654_" async src="https://a.vdo.ai/core/dependencies_hbv4_latest/vdo.min.js?v=v2.2"></script>
+<script id="_vdo_ads_sdk_5654_" async src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
 
-  <style>
+<style>
     #_vdo_ads_player_ai_3944 .ima-ad-container>div:first-child>div:first-child>video {
       border-radius: 0% !important;
       transition: none !important;
     }
-
+    
     ;
-  </style>
+    </style>
 
-  <style>
-    .vdo_content #cross_div {
+<style>
+  .vdo_content #cross_div {
       display: none !important;
     }
-  </style>
+    </style>
   <script id="_vdo_ads_videojs_5654_" src="https://a.vdo.ai/core/assets/vdo.player.js"></script>
   <script id="_vdo_ads_pbjs_5654_" src="https://a.vdo.ai/core/assets/rtb_v4.js"></script>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  <!-- don using jquey -3.3.1/slim  -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-</body>
+  </body>
 
-</html>
+  </html>

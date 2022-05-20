@@ -15440,7 +15440,7 @@ div#small-dialog iframe {
   -moz-background-size: cover;
   -ms-background-size: cover;
   position: relative;
-  z-index: 1;
+  z-index: 100;
   display: grid;
   align-items: center;
   min-height: 500px;
