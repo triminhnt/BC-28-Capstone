@@ -15,7 +15,7 @@
  * @todo Test Zepto
  * @todo stagePadding calculate wrong active classes
  */
- ;(function($, window, document, undefined) {
+;(function($, window, document, undefined) {
 
 	/**
 	 * Creates a carousel.
@@ -2605,7 +2605,7 @@
  * @author Bartosz Wojciechowski
  * @author Artus Kolanowski
  * @author David Deutsch
- * @author Tom De CaluwĂ©
+ * @author Tom De Caluwé
  * @license The MIT License (MIT)
  */
 ;(function($, window, document, undefined) {
@@ -2963,8 +2963,8 @@
 	Navigation.Defaults = {
 		nav: false,
 		navText: [
-			'<span aria-label="' + 'Previous' + '"> <span class="fa fa-angle-left"></span> </span>',
-			'<span aria-label="' + 'Next' + '"> <span class="fa fa-angle-right"></span> </span>'
+			'<span aria-label="' + 'Previous' + '">&#x2039;</span>',
+			'<span aria-label="' + 'Next' + '">&#x203a;</span>'
 		],
 		navSpeed: false,
 		navElement: 'button type="button" role="presentation"',
